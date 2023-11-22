@@ -10,16 +10,16 @@ const router = createRouter({
     }
   },
   routes: [
-    {
-      path: '/',
-      name: 'home',
-      component: Home,
-    },
-    {
-      path: '/posts',
-      name: 'EpisodesViewPosts',
-      component: EpisodesViewPosts,
-    },
+    // {
+    //   path: '/',
+    //   name: 'home',
+    //   component: Home,
+    // },
+    // {
+    //   path: '/posts',
+    //   name: 'EpisodesViewPosts',
+    //   component: EpisodesViewPosts,
+    // },
   ]
 });
 export default router
